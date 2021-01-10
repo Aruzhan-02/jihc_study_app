@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation.ProfilePage"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="405dp">
+
+        <LinearLayout
+            android:background="@drawable/gradientbg"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="122dp"
+                android:layout_height="139dp"
+                android:src="@drawable/profilepic"/>
+            
+            <TextView
+                android:id="@+id/fullname_field"
+                android:layout_marginTop="10dp"
+                android:includeFontPadding="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:text="Aruzhan Sabitova"
+                android:textColor="@color/white"
+                android:fontFamily="@font/notosans_bold"/>
+
+            <TextView
+                android:id="@+id/username_field"
+                android:layout_marginTop="0dp"
+                android:includeFontPadding="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="aruzhan-02"
+                android:textColor="@color/white"
+                android:fontFamily="@font/notosans_light"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="340dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Studying\n    Time"
+                        android:includeFontPadding="false"
+                        android:textSize="18dp"
+                        android:fontFamily="@font/notosans_regular"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3h 25min"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp"
+                        android:includeFontPadding="false"
+                        android:fontFamily="@font/notosans_bold"
+                        android:textColor="@color/startblue"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Homeworks\n       Done"
+                        android:includeFontPadding="false"
+                        android:textSize="18dp"
+                        android:fontFamily="@font/notosans_regular"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp"
+                        android:includeFontPadding="false"
+                        android:fontFamily="@font/notosans_bold"
+                        android:textColor="@color/startblue"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quizzes\n Passed"
+                        android:includeFontPadding="false"
+                        android:textSize="18dp"
+                        android:fontFamily="@font/notosans_regular"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp"
+                        android:includeFontPadding="false"
+                        android:fontFamily="@font/notosans_bold"
+                        android:textColor="@color/startblue"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            app:boxBackgroundColor="@color/white"
+            android:layout_marginBottom="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aruzhan Sabitova"
+                android:drawableLeft="@drawable/ic_name_profile"
+                android:drawablePadding="10dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            app:boxBackgroundColor="@color/white"
+            android:layout_marginBottom="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aruzhan-02"
+                android:drawableLeft="@drawable/ic_username_profile"
+                android:drawablePadding="10dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            app:boxBackgroundColor="@color/white"
+            android:layout_marginBottom="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aruzhansabit@gmail.com"
+                android:drawableLeft="@drawable/ic_mail_profile"
+                android:drawablePadding="10dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            app:boxBackgroundColor="@color/white"
+            android:layout_marginBottom="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1234qwerty"
+                android:drawableLeft="@drawable/ic_password_profile"
+                android:drawablePadding="10dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/update_btn"
+            android:transitionName="btn_login"
+            android:layout_gravity="center_horizontal"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/bg"
+            android:textColor="@color/white"
+            android:text="UPDATE"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/notosans_bold"/>
+
+        </LinearLayout>
+
+       
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp">
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.example.jihc_study.LetterImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivLetter"
+            android:layout_margin="8dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvWeekdays"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="6dp"
+            android:text="Days"
+            android:layout_toRightOf="@id/ivLetter"
+            android:fontFamily="@font/notosans_bold"
+            android:includeFontPadding="false"
+            android:textSize="24dp"/>
+
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/tvDescription"-->
+<!--            android:layout_below="@id/ivWeek"-->
+<!--            android:layout_toRightOf="@id/ivWeek"-->
+<!--            android:textSize="16dp"/>-->
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

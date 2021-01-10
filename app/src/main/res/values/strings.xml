@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">JIHC Study</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    /*
+    <string-array name="colors" translatable="false">
+        <item>#99cc00</item>
+        <item>#33b5e5</item>
+        <item>#0099cc</item>
+        <item>#547bca</item>
+        <item>#aa66cc</item>
+        <item>#9933cc</item>
+        <item>#669900</item>
+        <item>#aeb857</item>
+        <item>#cc0000</item>
+        <item>#df5948</item>
+        <item>#ff4444</item>
+        <item>#ae6b23</item>
+        <item>#ff8800</item>
+        <item>#e5ae4f</item>
+        <item>#ffbb33</item>
+        <item>#cccccc</item>
+        <item>#888888</item>
+    </string-array>
+
+    <string-array name="Week">
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+
+    </string-array>
+
+    <string-array name="Monday">
+        <item> Kazakh Literature </item>
+        <item> Kazakh Literature </item>
+        <item> Physics and Electrodynamics </item>
+        <item> PE </item>
+        <item> Java Learning Lesson </item>
+        <item> Intro to Python </item>
+        <item> Graphic Design </item>
+        <item> Graphic Design </item>
+
+    </string-array>
+
+    <string-array name="Tuesday">
+        <item> Kazakh Literature </item>
+        <item> Physics and Electrodynamics </item>
+        <item> PE </item>
+        <item> Java Learning Lesson </item>
+        <item> Java Learning Lesson </item>
+        <item> Intro to Python </item>
+        <item> Intro to Python </item>
+        <item> Graphic Design </item>
+
+    </string-array>
+
+    <string-array name="Wednesday">
+        <item> Kazakh Literature </item>
+        <item> Physics and Electrodynamics </item>
+        <item> PE </item>
+        <item> PE </item>
+        <item> PE </item>
+        <item> Java Learning Lesson </item>
+        <item> Intro to Python </item>
+        <item> Graphic Design </item>
+
+    </string-array>
+
+    <string-array name="Thursday">
+        <item> Kazakh Literature </item>
+        <item> Physics and Electrodynamics </item>
+        <item> PE </item>
+        <item> Java Learning Lesson </item>
+        <item> Intro to Python </item>
+        <item> Graphic Design </item>
+        <item> Graphic Design </item>
+        <item> Graphic Design </item>
+
+    </string-array>
+
+    <string-array name="Friday">
+        <item> Kazakh Literature </item>
+        <item> Physics and Electrodynamics </item>
+        <item> Physics and Electrodynamics </item>
+        <item> Physics and Electrodynamics </item>
+        <item> PE </item>
+        <item> Java Learning Lesson </item>
+        <item> Intro to Python </item>
+        <item> Graphic Design </item>
+
+    </string-array>
+
+    <string-array name="Saturday">
+        <item> Self Study </item>
+        <item> PE </item>
+        <item> Turkish Lesson </item>
+
+
+    </string-array>
+
+    <string-array name="time1">
+        <item> 9:00 - 9:35 </item>
+        <item> 9:45 - 10:20 </item>
+        <item> 10:30 - 11:05 </item>
+        <item> 11:15 - 11:50  </item>
+        <item>  12:00 - 12:35 </item>
+        <item> 13:30 - 14:05 </item>
+        <item> 14:15 - 14:50 </item>
+        <item> 15:00 - 15:35 </item>
+    </string-array>
+
+    <string-array name="time2">
+        <item> 9:00 - 9:35 </item>
+        <item> 9:45 - 10:20 </item>
+        <item> 10:30 - 11:05 </item>
+        <item> 11:15 - 11:50  </item>
+        <item>  12:00 - 12:35 </item>
+        <item> 13:30 - 14:05 </item>
+        <item> 14:15 - 14:50 </item>
+        <item> 15:00 - 15:35 </item>
+    </string-array>
+
+    <string-array name="time3">
+        <item> 9:00 - 9:35 </item>
+        <item> 9:45 - 10:20 </item>
+        <item> 10:30 - 11:05 </item>
+        <item> 11:15 - 11:50  </item>
+        <item>  12:00 - 12:35 </item>
+        <item> 13:30 - 14:05 </item>
+        <item> 14:15 - 14:50 </item>
+        <item> 15:00 - 15:35 </item>
+    </string-array>
+
+    <string-array name="time4">
+        <item> 9:00 - 9:35 </item>
+        <item> 9:45 - 10:20 </item>
+        <item> 10:30 - 11:05 </item>
+        <item> 11:15 - 11:50  </item>
+        <item>  12:00 - 12:35 </item>
+        <item> 13:30 - 14:05 </item>
+        <item> 14:15 - 14:50 </item>
+        <item> 15:00 - 15:35 </item>
+    </string-array>
+
+    <string-array name="time5">
+        <item> 9:00 - 9:35 </item>
+        <item> 9:45 - 10:20 </item>
+        <item> 10:30 - 11:05 </item>
+        <item> 11:15 - 11:50  </item>
+        <item>  12:00 - 12:35 </item>
+        <item> 13:30 - 14:05 </item>
+        <item> 14:15 - 14:50 </item>
+        <item> 15:00 - 15:35 </item>
+    </string-array>
+
+    <string-array name="time6">
+        <item> 9:00 - 9:35 </item>
+        <item> 9:45 - 10:20 </item>
+        <item> 10:30 - 11:05 </item>
+    </string-array>
+
+
+</resources>

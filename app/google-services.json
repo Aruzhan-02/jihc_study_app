@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "476511683498",
+    "project_id": "jihc-study",
+    "storage_bucket": "jihc-study.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476511683498:android:fe187e983d26f5103b61d3",
+        "android_client_info": {
+          "package_name": "com.example.jihc_study"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476511683498-af4v5rp26fq7gm0ariace209hdlou8iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD08JrvfjHyVcsZoIOFSIGeyOFN2Zfvd9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476511683498-af4v5rp26fq7gm0ariace209hdlou8iq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
